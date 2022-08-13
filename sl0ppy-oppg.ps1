@@ -1,3 +1,11 @@
+# Sloppy-oppg.ps1
+#
+# Author : P.Hoogeveeen
+# AKA    : x0xr00t
+# Taam   : sl0ppyroot
+#
+# this is a menu to gen automated obfuscated ps code 
+#
 # gen obfuscated payload and copy to clipboard... without output to file 
 #Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\5,encoding\5,encoding\5,clip'
 # gen obfuscated payload with output to file

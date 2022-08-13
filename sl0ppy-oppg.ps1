@@ -21,9 +21,9 @@ function Show-Menu {
     Write-Host "1: Press '1' For compression+SecureString+Output."
     Write-Host "2: Press '2' For Dubble-Compression+SecureString+Output."
     Write-Host "3: Press '3' For Tripple-Compression+SecureString+Output."
-    Write-Host "4: Press '1' For compression+BXOR+Output."
-    Write-Host "5: Press '2' For Dubble-Compression+BXOR+Output."
-    Write-Host "6: Press '3' For Tripple-Compression+BXOR+Output."        
+    Write-Host "4: Press '4' For compression+BXOR+Output."
+    Write-Host "5: Press '5' For Dubble-Compression+BXOR+Output."
+    Write-Host "6: Press '6' For Tripple-Compression+BXOR+Output."        
     Write-Host "Q: Press 'Q' To Quit."
 }
 

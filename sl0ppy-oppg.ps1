@@ -27,6 +27,9 @@ function Show-Menu {
     Write-Host "7: Press '7' For Compression+Octal+Output."
     Write-Host "8: Press '8' For Dubble-Compression+Octal+Output."
     Write-Host "9: Press '9' For Tripple-Compression+Octal+Output."   
+    Write-Host "10: Press '10' For Compression+Whitespace+Output."
+    Write-Host "11: Press '11' For Dubble-Compression+Whitespace+Output."
+    Write-Host "12: Press '12' For Tripple-Compression+Whitespace+Output."
     Write-Host "Q: Press 'Q' To Quit."
 }
 
@@ -63,7 +66,17 @@ do
     } '9' {
     'You chose option Tripple-Compression+Octal+Output'
     Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\3,compress\1,encoding\3,compress\1,encoding\3,out C:\sl0ppy-payload\output.ps1'
-    }    
+    }
+    } '10' {
+    'You chose option Compression+Octal+Output'
+	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\8,encoding\8,encoding\8,out C:\sl0ppy-payload\output.ps1'
+    } '11' {
+    'You chose option Dubble-Compression+Octal+Output'
+	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\8,compress\1,encoding\8,encoding\8,out C:\sl0ppy-payload\output.ps1'
+    } '12' {
+    'You chose option Tripple-Compression+Octal+Output'
+    Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\8,compress\1,encoding\8,compress\1,encoding\8,out C:\sl0ppy-payload\output.ps1'
+    } 
     }
     pause
  }

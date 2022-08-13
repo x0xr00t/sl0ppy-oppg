@@ -10,7 +10,7 @@
 #Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\5,encoding\5,encoding\5,clip'
 # gen obfuscated payload with output to file
 #Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\5,encoding\5,encoding\5,out C:\users\x0\Desktop\output.ps1' 
-$user = "$env:UserName"
+mkdir C:\sl0ppy-payload
 function Show-Menu {
     param (
         [string]$Title = 'Sl0ppy-oppg'
@@ -38,33 +38,34 @@ do
     {
     '1' {
     'You chose option #1'
-	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\5,encoding\5,encoding\5,out C:\users\$user\Desktop\output.ps1'
+	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\5,encoding\5,encoding\5,out C:\sl0ppy-payload\output.ps1'
     } '2' {
     'You chose option #2'
-	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\5,compress\1,encoding\5,encoding\5,out C:\users\$user\Desktop\output.ps1'
+	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\5,compress\1,encoding\5,encoding\5,out C:\sl0ppy-payload\output.ps1'
     } '3' {
       'You chose option #3'
-	  Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\5,compress\1,encoding\5,compress\1,encoding\5,out C:\users\$user\Desktop\output.ps1'
+	  Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\5,compress\1,encoding\5,compress\1,encoding\5,out C:\sl0ppy-payload\output.ps1'
     } '4' {
     'You chose option #4'
-	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\6,encoding\6,encoding\6,out C:\users\x0\Desktop\output.ps1'
+	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\6,encoding\6,encoding\6,out C:\sl0ppy-payload\output.ps1'
     } '5' {
     'You chose option #5'
-	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\6,compress\1,encoding\6,encoding\6,out C:\users\x0\Desktop\output.ps1'
+	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\6,compress\1,encoding\6,encoding\6,out C:\sl0ppy-payload\output.ps1'
     } '6' {
     'You chose option #6'
-       Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\6,compress\1,encoding\6,compress\1,encoding\6,out C:\users\x0\Desktop\output.ps1'
+       Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\6,compress\1,encoding\6,compress\1,encoding\6,out C:\sl0ppy-payload\output.ps1'
     } '7' {
     'You chose option #7'
-	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\3,encoding\3,encoding\3,out C:\users\x0\Desktop\output.ps1'
+	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\3,encoding\3,encoding\3,out C:\sl0ppy-payload\output.ps1'
     } '8' {
     'You chose option #8'
-	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\3,compress\1,encoding\3,encoding\3,out C:\users\x0\Desktop\output.ps1'
+	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\3,compress\1,encoding\3,encoding\3,out C:\sl0ppy-payload\output.ps1'
     } '9' {
     'You chose option #9'
-       Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\3,compress\1,encoding\3,compress\1,encoding\3,out C:\users\x0\Desktop\output.ps1'
+       Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\3,compress\1,encoding\3,compress\1,encoding\3,out C:\sl0ppy-payload\output.ps1'
     }    
     }
     pause
  }
  until ($selection -eq 'q')
+

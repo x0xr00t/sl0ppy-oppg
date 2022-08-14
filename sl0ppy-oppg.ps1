@@ -66,7 +66,6 @@ do
     } '9' {
     'You chose option Tripple-Compression+Octal+Output'
     Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\3,compress\1,encoding\3,compress\1,encoding\3,out C:\sl0ppy-payload\output.ps1'
-    }
     } '10' {
     'You chose option Compression+Octal+Output'
 	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\users\x0\Desktop\sl0ppy-winvasion\1.ps1} -command 'compress\1,encoding\8,encoding\8,encoding\8,out C:\sl0ppy-payload\output.ps1'

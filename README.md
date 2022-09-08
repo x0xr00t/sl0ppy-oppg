@@ -2,7 +2,7 @@
 sl0ppy-obfuscated-pif-payload-generator
 
 # Cycle
-* reads .ps1 to makes obfuscated powershellcode 
+* reads .ps1 to make obfuscated powershellcode 
 * Outputs output obfuscator to .ps1 
 * dubble Appends powershell $() 
 * reads file .ps1 to gen exe 

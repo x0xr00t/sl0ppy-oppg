@@ -44,7 +44,7 @@ do
     switch ($selection)
     {
     '1' {
-    'You chose option Compression+SecureString+Output '
+    'You chose option Compression+SecureString+Output'
 	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\sl0ppy-oppg-main\sl0ppy-b64pd.ps1} -command 'compress\1,encoding\5,encoding\5,encoding\5,out C:\sl0ppy-payload\output.ps1'
 	Add-Content -NoNewline -path C:\sl0ppy-payload\output.ps1 "| powershell "  
 	Add-Content -NoNewline -path C:\sl0ppy-payload\output.ps1 '$()'

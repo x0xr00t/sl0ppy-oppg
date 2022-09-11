@@ -8,7 +8,7 @@ sl0ppy-Obfuscated-Pif-Payload-Generator. Is a fully automated pif payload genera
 * reads file .ps1 to gen exe 
 * renames exe to pif 
 
-# Add exclusions for defender
+# NEEDED >> Add exclusions for defender
 * `C:\sl0ppy-oppg`
 * `C:\sl0ppy-payload`
 
@@ -18,4 +18,5 @@ sl0ppy-Obfuscated-Pif-Payload-Generator. Is a fully automated pif payload genera
 
 # Generated payloads u can find under.. 
 * `C:\sl0ppy-payload`
+
 

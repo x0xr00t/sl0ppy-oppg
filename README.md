@@ -1,5 +1,5 @@
 # sl0ppy-oppg
-sl0ppy-obfuscated-pif-payload-generator
+sl0ppy-Obfuscated-Pif-Payload-Generator. Is a fully automated pif payload generator.
 
 # Cycle
 * reads .ps1 to make obfuscated powershellcode 
@@ -8,8 +8,14 @@ sl0ppy-obfuscated-pif-payload-generator
 * reads file .ps1 to gen exe 
 * renames exe to pif 
 
-# usage
-* gen powershell payload and 
-* add "| powershell $()" to the powershell payload
-* copy string convert to b64  
-* add| replace b64 payload in b.ps1 >>> (if needed add "|powershell $()" to the b.ps1 (if good not needed but check it!!))
+# Add exclusions for defender
+* `C:\sl0ppy-oppg`
+* `C:\sl0ppy-payload`
+
+# Usage
+* replace powershell payload in 1.ps1
+* run `./sl0ppy-oppg`
+
+# Generated payloads u can find under.. 
+* `C:\sl0ppy-payload`
+

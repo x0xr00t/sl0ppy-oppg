@@ -1,5 +1,5 @@
 # sl0ppy-oppg
-sl0ppy-Obfuscated-Pif-Payload-Generator. Is a fully automated pif payload generator.
+sl0ppy-Obfuscated-Pif-Payload-Generator, is a fully automated pif payload generator.
 
 # Project cicle 
 * reads .ps1 to make obfuscated powershellcode 
@@ -20,3 +20,7 @@ sl0ppy-Obfuscated-Pif-Payload-Generator. Is a fully automated pif payload genera
 * `C:\sl0ppy-payload`
 
 
+# Legal Disclaimer: 
+* I am not responsible for U using it on non authorized systems, make sure u use it on systems u own or are authorized on. 
+
+* x0xr00t 

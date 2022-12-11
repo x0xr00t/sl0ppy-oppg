@@ -1,6 +1,10 @@
 # sl0ppy-oppg
 sl0ppy-Obfuscated-Pif-Payload-Generator, is a fully automated pif payload generator.
 
+# Obfuscator-edit
+* added a edited version of obfuscator to the repo. 
+* this sources is edited to gen larger payloads then the default source.
+
 # Process
 * reads .ps1 to make obfuscated powershellcode 
 * Outputs output obfuscator to .ps1 

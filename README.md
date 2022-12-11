@@ -1,7 +1,7 @@
 # sl0ppy-oppg
 sl0ppy-Obfuscated-Pif-Payload-Generator. Is a fully automated pif payload generator.
 
-# Cycle
+# Project cicle 
 * reads .ps1 to make obfuscated powershellcode 
 * Outputs output obfuscator to .ps1 
 * dubble Appends powershell $() 

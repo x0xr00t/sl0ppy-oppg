@@ -7,6 +7,7 @@ sl0ppy-Obfuscated-Pif-Payload-Generator, is a fully automated pif payload genera
 
 # ps2exe added
 * All files from this sources are included, exe, ps1, psd1, psm1.
+* these files are used to gen the exe from the 1.ps1 file 
 
 # Process
 * reads .ps1 to make obfuscated powershellcode 

@@ -20,7 +20,7 @@ sl0ppy-Obfuscated-Pif-Payload-Generator, is a fully automated pif payload genera
 * `C:\sl0ppy-oppg`
 * `C:\sl0ppy-payload`
 
-#Key Enhancements Explained:
+# Key Enhancements Explained:
   *  `Randomization: Every time a payload is generated, it is saved with a random filename and obfuscated differently, making each one unique.`
   *  `AES Encryption: One of the options applies AES encryption to the payload, making it much harder to detect or reverse-engineer.`
   *  `Anti-VM Check: The script checks if the environment is a virtual machine (VMware, VirtualBox) and stops execution if so, helping evade sandbox analysis.`

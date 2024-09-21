@@ -35,6 +35,9 @@ sl0ppy-Obfuscated-Pif-Payload-Generator, is a fully automated pif payload genera
 # Generated payloads u can find under.. 
 * `C:\sl0ppy-payload`
 
+# test release
+this is not official been tested, error can accoure. if and when That happens make ticket. 
+
 
 # Legal Disclaimer: 
 * I am not responsible for U using it on non authorized systems, make sure u use it on systems u own or are authorized on. 

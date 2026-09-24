@@ -1,9 +1,3 @@
-![GitHub release](https://img.shields.io/github/v/release/x0xr00t/sl0ppy-OPPG)
-![GitHub license](https://img.shields.io/github/license/x0xr00t/sl0ppy-OPPG)
-![GitHub stars](https://img.shields.io/github/stars/x0xr00t/sl0ppy-OPPG)
-![GitHub issues](https://img.shields.io/github/issues/x0xr00t/sl0ppy-OPPG)
-
-
 # sl0ppy-OPPG
 
 ![GitHub release](https://img.shields.io/github/v/release/x0xr00t/sl0ppy-OPPG)
